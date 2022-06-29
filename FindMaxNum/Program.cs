@@ -13,12 +13,12 @@ public class Program
 
 
         /**
-         * 
+         * 基准测试，取消注释就可
          */
-        for (int i = 0; i < source.Length; i++)
-            source[i] = new Random().Next(0, int.MaxValue);
+        //for (int i = 0; i < source.Length; i++)
+        //    source[i] = new Random().Next(0, int.MaxValue);
 
-        BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args, new DebugInProcessConfig());
+        //BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args, new DebugInProcessConfig());
 
 
         int[] arr = { 3, 5, 27, 45, 34, 9, 18 };
@@ -43,6 +43,24 @@ public class Program
 
         Console.WriteLine();
         Console.WriteLine("使用 Enumerable.MaxBy 查找最大值=" + max1 + ",下标=" + Array.IndexOf(arr, max1));
+
+        //找最小值
+        Console.WriteLine();
+
+        int minIndex = Min(arr);
+
+        Console.WriteLine("使用 for 查找 最小值=" + arr[minIndex] + ",下标=" + minIndex);
+
+        int min = arr.Min();
+
+        Console.WriteLine();
+        Console.WriteLine("使用 Enumerable.Min 查找最小值=" + min + ",下标=" + Array.IndexOf(arr, min));
+
+        int min1 = arr.MinBy(a => a);
+
+        Console.WriteLine();
+        Console.WriteLine("使用 Enumerable.MinBy 查找最大值=" + min1 + ",下标=" + Array.IndexOf(arr, min1));
+
 
         Console.ReadLine();
     }
