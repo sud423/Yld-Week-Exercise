@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMaxNum", "FindMaxNum\FindMaxNum.csproj", "{0D0D2124-C51F-46A9-B632-55D8C56F3EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSumArray", "MaxSumArray\MaxSumArray.csproj", "{37540A57-366B-4D8B-A80F-26CA59ED8A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxSumArray", "MaxSumArray\MaxSumArray.csproj", "{37540A57-366B-4D8B-A80F-26CA59ED8A00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{E0C4801C-8701-4A36-8B12-E0172ECE5CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{078C0ABD-2C41-40A3-8B6F-98080A165CA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{37540A57-366B-4D8B-A80F-26CA59ED8A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37540A57-366B-4D8B-A80F-26CA59ED8A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37540A57-366B-4D8B-A80F-26CA59ED8A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C4801C-8701-4A36-8B12-E0172ECE5CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C4801C-8701-4A36-8B12-E0172ECE5CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C4801C-8701-4A36-8B12-E0172ECE5CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C4801C-8701-4A36-8B12-E0172ECE5CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078C0ABD-2C41-40A3-8B6F-98080A165CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078C0ABD-2C41-40A3-8B6F-98080A165CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078C0ABD-2C41-40A3-8B6F-98080A165CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078C0ABD-2C41-40A3-8B6F-98080A165CA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
